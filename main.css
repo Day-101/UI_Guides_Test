@@ -1,0 +1,17 @@
+body{background: rgb(50, 50, 50);margin: 0;padding: 0;}
+header{background: #fff; display: flex; padding: 2em;align-items: center;margin-bottom: 1em;}
+header div{flex: auto}
+header div p{text-align: end; font-style: italic; color: darkgray;}
+.container{width: 50em; margin: 2em auto; background-color: #fcfcfc;padding: 2em;border-radius: 0.5em;}
+.rect-container h3{text-align: center;}
+.rect{width: 100%; height: 100%; border-top-right-radius: 0.9em; border-top-left-radius: 0.9em;}
+.rect-rounded{width: 6em; height: 6.3em; border-radius: 1em; margin: 1em;border: 1px solid #cccccc;display: flex;flex-direction: column;padding: 0.1em;}
+.rect-group{display: flex;}
+.ref-color{text-align: center; margin: 0; height: fit-content; width: inherit; align-self: flex-end;}
+.font-noto{font-family: 'Noto Sans', sans-serif}
+
+.typo-container{display: flex;}
+.side-name{flex-grow: 1; text-align: center;}
+
+
+.width-split{width:50%;}
